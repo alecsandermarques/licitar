@@ -22,13 +22,13 @@ const Details = ({navigation}: any) => {
   return (
     <>
       <TopNavigation
-        title="MyApp"
+        title="Licitar"
         alignment="center"
         accessoryLeft={BackAction}
       />
       <Divider />
       <Layout style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-        <Text category="h1">DETAILS</Text>
+        <Text category="h1">DETALHES</Text>
       </Layout>
     </>
   );

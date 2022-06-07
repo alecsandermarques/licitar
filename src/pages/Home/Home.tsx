@@ -8,10 +8,10 @@ const Home = ({navigation}: any) => {
 
   return (
     <>
-      <TopNavigation title="MyApp" alignment="center" />
+      <TopNavigation title="Licitar" alignment="center" />
       <Divider />
       <Layout style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-        <Button onPress={navigateDetails}>OPEN DETAILS</Button>
+        <Button onPress={navigateDetails}>ABRIR DETALHES</Button>
       </Layout>
     </>
   );

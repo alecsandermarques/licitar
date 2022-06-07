@@ -1,12 +1,12 @@
 import {Layout, Text} from '@ui-kitten/components';
 import React from 'react';
 
-const Home = () => {
+const Processes = () => {
   return (
     <Layout style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-      <Text category="h1">Home</Text>
+      <Text category="h1">Processes</Text>
     </Layout>
   );
 };
 
-export default Home;
+export default Processes;
